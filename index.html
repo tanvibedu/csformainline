@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- JAVASCRIPT PAGE HANDLING -->
+        <script>
+            function home() {
+                document
+                    .querySelector('.programs')
+                    .style
+                    .display = "none";
+                document
+                    .querySelector('.home')
+                    .style
+                    .display = "grid";
+                document
+                    .querySelector('.about')
+                    .style
+                    .display = "none";
+                document
+                    .querySelector('.contact')
+                    .style
+                    .display = "none";
+            }
+            function programs() {
+                document
+                    .querySelector('.home')
+                    .style
+                    .display = "none";
+                document
+                    .querySelector('.programs')
+                    .style
+                    .display = "block";
+                document
+                    .querySelector('.about')
+                    .style
+                    .display = "none";
+                document
+                    .querySelector('.contact')
+                    .style
+                    .display = "none";
+            }
+            function about() {
+                document
+                    .querySelector('.home')
+                    .style
+                    .display = "none";
+                document
+                    .querySelector('.programs')
+                    .style
+                    .display = "none";
+                document
+                    .querySelector('.about')
+                    .style
+                    .display = "block";
+                document
+                    .querySelector('.contact')
+                    .style
+                    .display = "none";
+            }
+            function contact() {
+                document
+                    .querySelector('.home')
+                    .style
+                    .display = "none";
+                document
+                    .querySelector('.programs')
+                    .style
+                    .display = "none";
+                document
+                    .querySelector('.about')
+                    .style
+                    .display = "none";
+                document
+                    .querySelector('.contact')
+                    .style
+                    .display = "grid";
+            }
+        </script>
+        <!-- END OF JAVASCRIPT PAGE HANDLING -->
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Libre+Franklin|Nanum+Gothic|Gloock|Arimo|Roboto">
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+            crossorigin="anonymous">
+        <link rel="stylesheet" href="styles/styles-new.css">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CS4MAINLINE</title>
+    </head>
+
+    <body>
+        <!-- NAVIGATION -->
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand">CS4MAINLINE</a>
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" onclick="home()" href="#">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" onclick="programs()" href="#">Programs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" onclick="about()" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" onclick="contact()" href="#">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a
+                            class="nav-link"
+                            href="https://docs.google.com/forms/d/e/1FAIpQLScoyJxgGaQ99tZYaaWkeNKJHEb-9g0BHgqDxJxcq7BZsce9wQ/viewform">Register</a>
+                    </li>
+
+                </ul>
+            </div>
+
+        </nav>
+        <!-- END OF NAVIGATION -->
+
+        <!-- HOME PAGE -->
+        <div class="home">
+            <div class="home-content">
+                <h1 class="home-head">
+                    CS4MAINLINE
+                </h1>
+                <hr>
+                <h4>A nonprofit aiming to teach local students in the area how to code for zero
+                    cost.</h4>
+                <hr>
+                <h6>Programming is a necessary skill to develop in order to thrive in the
+                    technologically advancing world - join the CS4Mainline community to get started!</h6>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLScoyJxgGaQ99tZYaaWkeNKJHEb-9g0BHgqDxJxcq7BZsce9wQ/viewform">Click here to register!</a>
+            </div>
+        </div>
+        <!-- END OF HOME PAGE -->
+
+        <!-- PROGRAMS PAGE -->
+        <div class="programs">
+            <div class="h">
+                <h1 class="programs-head">
+                    PROGRAMS
+                </h1>
+            </div>
+
+            <div class="content-programs">
+                <div class="space"></div>
+                <div class="n1">
+                    <p class="header">
+                        <em>Scratch</em>
+                        <hr>
+                    </p>
+
+                    <p class="sub-header">INFO</p>
+
+                    This programming class is designed exclusively for beginners in grades
+                    2-4. Participants will be introduced to fundamental programming skills such as
+                    control flow, loops, and variables using Scratch. Our teaching approach is very
+                    hands-on, with a plethora of activities that will encourage students to express
+                    their creativity. The curriculum has been carefully curated by Google, and upon
+                    completion, students will receive a certificate to commemorate their
+                    achievements!
+
+                    <br><br>
+                    <p class="sub-header">DATES</p>
+
+                    Every Saturday from 10-11 AM from March 4th to June 10th - we hope to see you
+                    there!
+                </div>
+                <div class="space"></div>
+                <div class="n1">
+                    <p class="header">
+                        <em>Python</em>
+                        <hr>
+                    </p>
+                    <p class="sub-header">INFO</p>
+
+                    This programming class is tailored for beginner to intermediate programmers in
+                    grades 5-8. Using Python, participants will learn fundamental programming skills
+                    such as conditionals, loops, variables, and methods. Our class is designed to be
+                    hands-on, with a focus on building multiple games and projects that will put
+                    your skills to the test. While the class may be challenging at times, please
+                    don't feel intimidated. Overcoming challenges is a significant aspect of
+                    programming, and we are here to guide and support you throughout the course.
+                    <br><br>
+                    <p class="sub-header">DATES</p>
+
+                    Every Sunday from 9-10 AM from March 5th to June 11th - we hope to see you
+                    there!
+                </div>
+                <div class="space"></div>
+            </div>
+        </div>
+        <!-- END OF PROGRAMS PAGE -->
+
+        <!-- ABOUT PAGE -->
+        <div class="about">
+            <h1 class="about-head">
+                ABOUT US
+            </h1>
+            <div class="content-about">
+                <div class="n1">
+                    <div class="new">
+                        <p class="header">
+                            <em>Sowmya Krishna</em>
+                            <hr>
+                        </p>
+                        <img
+                            class="face"
+                            src="styles/sowmya_final2.png"
+                            alt=""
+                            width="200"
+                            height="200"><br><br>
+
+                        Hello! I'm Sowmya Krishna, a current sophomore residing in the mainline, with a
+                        strong passion for computer science. From web design to AI and machine learning,
+                        programming is one of my favorite pastimes. I'm always eager to apply my skills
+                        to assist the community, particularly the younger generation. As I discovered my
+                        love for coding at a young age, I aspire to inspire other children to develop an
+                        interest in programming as well. With Tanvi's support, our goal is to encourage
+                        the mainline's youth to pursue programming, and we believe that CS4Mainline is
+                        the ideal platform to achieve this.
+                    </div>
+
+                </div>
+                <div class="space"></div>
+                <div class="n1">
+                    <p class="header">
+                        <em>Tanvi Bommisetti</em>
+                        <hr>
+                    </p>
+                    <img class="face" src="styles/tanvi_new.png" alt="" width="200" height="200"><br><br>
+                    Hi! I’m Tanvi Bommisetti, a current sophomore living in the mainline. I’m
+                    interested in majoring in computer science and business. Ever since I was
+                    little, I was interested in all things tech-related. From unboxing the latest
+                    iPhone to coding in Scratch, I wanted to share my interest in coding with other
+                    kids for free and at no-cost. That’s why Sowmya and I kickstarted CS4Mainline, a non-profit originally started by my
+                    brother. I wanted kids of our generation to get hands-on experience in coding
+                    and be able to share their passions and ideas!
+
+                </div>
+                <div class="space"></div>
+                
+
+            </div>
+        </div>
+        <!-- END OF ABOUT PAGE -->
+
+        <!-- CONTACT PAGE -->
+        <div class="contact">
+            <div class="contact-content">
+                <h1 class="contact-head">
+                    CONTACT US
+                </h1>
+
+                <div class="content2">
+                    <hr>
+                    <em>
+                        <p class="reach">Reach us at:<br>
+                            csmainline@gmail.com</p>
+                        <p class="reach">Reach Sowmya Krishna at:<br>
+                            sowkrish07@gmail.com</p>
+                        <p class="reach">Reach Tanvi Bommisetti at:<br>
+                            tanvibommisetti5@gmail.com</p>
+                    </em>
+                </div>
+            </div>
+
+        </div>
+        <!-- END OF CONTACT PAGE -->
+
+    </body>
+</html>
