@@ -166,7 +166,7 @@ img {
 .programs {
     text-align: center;
     display: none;
-    
+    padding-bottom: 40px;
 }
 .content-programs {
     display: block;
@@ -186,7 +186,7 @@ img {
 }
 @media (min-width: 800px) {
     .content-about {
-      display: flex;
+        align-items: center;
     }
   }
   
@@ -218,14 +218,30 @@ img {
     border-radius: 5px;
     width: 80vw;
 }
+.n2 {
+    background-color: rgba(255, 255, 255, 0.92);
+    padding: 20px;
+    border-radius: 5px;
+    width: 80vw;
+}
 .space {
     height: 40px;
 }
+.space-other {
+    width: 40px
+}
 @media (min-width: 800px) {
     .n1 {
-      margin-left: 40px;
-      margin-right: 40px;
-      width: 40vw;
-      margin-bottom: 40px;
+        margin-left: 40px;
+        margin-right: 40px;
+        width: 40vw;
+        margin-bottom: 40px;
     }
  }
+ @media (min-width: 800px) {
+    .n2 {
+        width: 60vw;
+        margin: auto
+    }
+ }
+
